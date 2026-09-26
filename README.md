@@ -13,8 +13,8 @@ i used the **Fixed Window Counter** algorithm because its the simplest one to un
 1. you send a request to the server
 2. the server checks your IP address
 3. it looks up how many requests you've already made in the current 60-second window
-4. if you're under 5 requests → it lets you through ✅
-5. if you've already made 5 → it blocks you with a 429 error ❌
+4. if you're under 5 requests → it lets you through 
+5. if you've already made 5 → it blocks you with a 429 error 
 6. after 60 seconds, the window resets and you can make requests again
 
 ## project structure
